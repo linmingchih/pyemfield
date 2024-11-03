@@ -7,11 +7,11 @@ from pyemfield import hfss_design, get_ffds, Beam
 
 hd = hfss_design()
 
-folder = r'D:\OneDrive - ANSYS, Inc\GitHub\pyemf\tests\ffds'
+folder = r'D:\OneDrive - ANSYS, Inc\GitHub\pyemfield\tests\ffds'
 hd.export_ffds(folder, 'Setup1 : Sweep', '30.0GHz')
 
 #%%
-folder = r'D:\OneDrive - ANSYS, Inc\GitHub\pyemf\tests\ffds'
+folder = r'D:\OneDrive - ANSYS, Inc\GitHub\pyemfield\tests\ffds'
 ffds = get_ffds(folder)
 
 ffds.keys()

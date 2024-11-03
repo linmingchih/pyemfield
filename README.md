@@ -34,13 +34,6 @@ The following example demonstrates how to use `pyemfield` to calculate and visua
 ```python
 from pyemfield import hfss_design, get_ffds, Beam
 
-#%% Export ffds from HFSS
-hd = hfss_design()
-
-folder = r'D:\OneDrive - ANSYS, Inc\GitHub\pyemfield\tests\ffds'
-hd.export_ffds(folder, 'Setup1 : Sweep', '30.0GHz')
-
-#%% Read ffds for post processing
 folder = r'D:\OneDrive - ANSYS, Inc\GitHub\pyemfield\tests\ffds'
 ffds = get_ffds(folder)
 
