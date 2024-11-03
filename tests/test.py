@@ -1,7 +1,7 @@
 import sys, os
-sys.path.insert(0, r'D:\OneDrive - ANSYS, Inc\GitHub\pyemf')
+sys.path.insert(0, r'D:\OneDrive - ANSYS, Inc\GitHub\pyemfield')
 
-from pyemf import hfss_design, get_ffds, Beam
+from pyemfield import hfss_design, get_ffds, Beam
 
 #%%
 
