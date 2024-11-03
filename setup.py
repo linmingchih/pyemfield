@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyemfield",
-    version="0.1.4",
+    version="0.1.5",
     author="Lin, Ming Chih",
     author_email="mingchih.lin8@gmail.com",
     description="A Python library for HFSS antenna radiation pattern analysis and gain optimization",
